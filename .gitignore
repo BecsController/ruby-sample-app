@@ -20,6 +20,12 @@
 # Ignore uploaded files in development
 /storage/*
 
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore Spring files.
+/spring/*.pid
+
 /node_modules
 /yarn-error.log
 
